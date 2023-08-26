@@ -10,7 +10,7 @@ func main(){
 	fmt.Println(">>1.Rock 2.Paper 3.Scissors")
 	fmt.Scan(&choice)
 	rand.Seed(time.Now().UnixNano())
-	intchoice:=rand.Intn(2)
+	intchoice:=rand.Intn(3)
 	switch choice {
 		case 1: // Rock
 			if (intchoice == 0){
