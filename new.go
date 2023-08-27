@@ -75,8 +75,6 @@ func main() {
 		AddSeries("Numbers", getDiagramm(countWin, countLose, countDraw))
 	f, _ := os.Create("bar.html")
 	bar.Render(f)
-	exec.Command("xdg-open", "bar.html").Run()
-	// exec.Command("cmd", "/C", "start", "bar.html").Start()
 }
 
 func getDiagramm(countWin, countLose, countDraw int) []opts.BarData {
