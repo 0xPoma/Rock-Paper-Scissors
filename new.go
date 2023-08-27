@@ -2,13 +2,11 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
-	"os"
-	"os/exec"
-	"time"
-
 	"github.com/go-echarts/go-echarts/v2/charts"
 	"github.com/go-echarts/go-echarts/v2/opts"
+	"math/rand"
+	"os"
+	"time"
 )
 
 func main() {
